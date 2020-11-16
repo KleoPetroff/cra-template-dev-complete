@@ -1,0 +1,52 @@
+{
+  "package": {
+    "dependencies": {
+      "styled-components": "^5.2.1",
+      "@testing-library/jest-dom": "^5.11.4",
+      "@testing-library/react": "^11.1.0",
+      "@testing-library/user-event": "^12.1.10",
+      "@types/jest": "^26.0.15",
+      "@types/node": "^12.0.0",
+      "@types/react": "^16.9.53",
+      "@types/react-dom": "^16.9.8",
+      "@types/styled-components": "^5.1.4",
+      "history": "^5.0.0",
+      "react-router-dom": "^6.0.0-beta.0",
+      "eslint-config-prettier": "^6.15.0",
+      "eslint-plugin-prettier": "^3.1.4",
+      "husky": "^4.3.0",
+      "lint-staged": "^10.5.1",
+      "prettier": "^2.1.2",
+      "typescript": "^4.0.5",
+      "web-vitals": "^0.2.4"
+    },
+    "scripts": {
+      "prettier:check": "prettier --check ./src",
+      "prettier:fix": "prettier --write ./src"
+    },
+    "eslintConfig": {
+      "rules": {
+        "prettier/prettier": "error"
+      },
+      "plugins": [
+        "prettier"
+      ],
+      "extends": [
+        "react-app",
+        "react-app/jest",
+        "prettier"
+      ]
+    },
+    "husky": {
+      "hooks": {
+        "pre-commit": "lint-staged"
+      }
+    },
+    "lint-staged": {
+      "src/**/*.{js,jsx,ts,tsx}": [
+        "eslint",
+        "prettier --check ./src"
+      ]
+    }
+  }
+}
