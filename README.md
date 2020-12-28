@@ -5,6 +5,7 @@ An opinionated template for [Create React App](https://create-react-app.dev) usi
 - [TypeScript](https://www.typescriptlang.org) v4.0.5
 - [React Router](https://github.com/ReactTraining/react-router/releases/tag/v6.0.0-beta.0) v6.0.0 beta
 - [Styled Components](https://styled-components.com) v5
+- [Cypress](https://cypress.io) v6.2.0
 - [Prettier](https://prettier.io)
 - Pre-commit hook using [husky](https://github.com/typicode/husky) and [lint-staged](https://github.com/okonet/lint-staged)
 
