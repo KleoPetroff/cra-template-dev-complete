@@ -11,6 +11,7 @@
     "styled-components",
     "pre-commit"
   ],
+  "homepage": "https://github.com/KleoPetroff/cra-template-dev-complete",
   "description": "Create React App template with TypeScript, React Router and Styled Components.",
   "license": "MIT",
   "engines": {
