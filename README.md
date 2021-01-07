@@ -7,6 +7,7 @@ An opinionated template for [Create React App](https://create-react-app.dev) usi
 - [Styled Components](https://styled-components.com) v5
 - [Cypress](https://cypress.io) v6.2.0
 - [Prettier](https://prettier.io)
+- [Mock Service Worker](https://mswjs.io) v0.25.0
 - Pre-commit hook using [husky](https://github.com/typicode/husky) and [lint-staged](https://github.com/okonet/lint-staged)
 
 ## Usage
