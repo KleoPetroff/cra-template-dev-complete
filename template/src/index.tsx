@@ -21,7 +21,10 @@ const GlobalStyles = createGlobalStyle`
 
 `
 
-if (process.env.NODE_ENV === 'development' && process.env.REACT_APP_START_MOCK) {
+if (
+  process.env.NODE_ENV === 'development' &&
+  process.env.REACT_APP_START_MOCK
+) {
   const { worker } = require('./mocks/browser')
   worker.start()
 }
