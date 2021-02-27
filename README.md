@@ -2,12 +2,12 @@
 
 An opinionated template for [Create React App](https://create-react-app.dev) using:
 
-- [TypeScript](https://www.typescriptlang.org) v4.0.5
+- [TypeScript](https://www.typescriptlang.org) v4.2.2
 - [React Router](https://github.com/ReactTraining/react-router/releases/tag/v6.0.0-beta.0) v6.0.0 beta
 - [Styled Components](https://styled-components.com) v5
-- [Cypress](https://cypress.io) v6.2.0
+- [Cypress](https://cypress.io) v6.5.0
 - [Prettier](https://prettier.io)
-- [Mock Service Worker](https://mswjs.io) v0.25.0
+- [Mock Service Worker](https://mswjs.io) v0.27.0
 - Pre-commit hook using [husky](https://github.com/typicode/husky) and [lint-staged](https://github.com/okonet/lint-staged)
 
 ## Usage
